@@ -37,8 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # 3rd Party Packages
     'tinymce',
-    'post',
+    'ckeditor',
+    'ckeditor_uploader',
+
+    # Applications
+    'tinymce_blog',
+    'ckeditor_blog',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +127,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+CKEDITOR_BASEPATH = '/static/ckeditor/ckeditor/'
+CKEDITOR_UPLOAD_PATH = 'uploads/'
