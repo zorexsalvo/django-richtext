@@ -6,6 +6,8 @@ name = "pypi"
 [dev-packages]
 
 [packages]
+django = "*"
+django-tinymce = "*"
 
 [requires]
 python_version = "3.7"
