@@ -1,3 +1,3 @@
-# Django TinyMCE Sample
+# Django Rich Text
 
-Simple application that implements tinyMCE on Django.
+Simple project that implements various Rich Text Editors and WYSIWYG in Django.
